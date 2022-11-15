@@ -1,0 +1,42 @@
+@import url(nav.css);
+
+:root {
+    --tamnoPlava: #1d527c;  
+    --svetloPlava: #459ad3; 
+    --orange: #fd7f45;
+    --svetloSiva: lightgray;
+    --bela: #fff;
+    --transition: .3s ease;
+}
+.spoc{
+    width: 100%;
+}
+#pocetak{
+    position: relative;
+    width: 100%;
+}
+.n1{
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.n2{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: left;
+    padding-left: 35px;
+}

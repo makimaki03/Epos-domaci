@@ -1,0 +1,64 @@
+@import url(nav.css);
+.div1{
+    padding: 30px;
+    background-color: rgb(115, 246, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    margin-bottom: 5px;
+}
+.slika1{
+    vertical-align: middle;
+}
+.slika2{
+    margin-right: 5px;
+}
+h2{
+    text-align: center;
+}
+
+.sve{
+    background-color: rgb(230, 230, 230);
+}
+
+@media(width<=768px)
+{
+    .div1{
+        padding: 20px;
+        display: block;
+        
+    }
+    .slika1{
+        margin-top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+    .slika2{
+        margin-bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+}
+@media(width<=375px)
+{
+    .slika1{
+        width: 235px;
+        height: 130px;
+    }
+    .slika2{
+        width: 235px;
+        height: 170px;
+    }
+}
+@media(width<=1024px)
+{
+    .futer{
+        position: unset;
+    }
+}
