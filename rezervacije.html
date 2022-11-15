@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/rezervacije.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <nav id="pocetak" class="pocetak">
+        <div class="db"><button class="bmeni">Meni</button></div>
+        <ul class="nav">
+            <li><a href="index.html">Pocetna</a></li>
+            <li><a href="ponude.html">Ponude</a></li>
+            <li><a href="rezervacije.html">Rezervacija</a></li>
+            <li><a href="o_nama.html">O nama</a></li>
+        </ul>
+    </nav>
+    <div id="rezervacije">
+        <h2>Rezervisite</h2>
+        <form>
+            <input type="text" id="ime" placeholder="Unesite ime"><br>
+            <input type="text" id="prezime" placeholder="Unesite prezime"><br>
+            <input type="email" id="email" placeholder="Unesite email"><br>
+            <label>Pol</label><br>
+            <label for="m">Musko</label><input type="radio" name="r1" id="m" class="pol"><br><br>
+            <label for="z">Žensko</label><input type="radio" name="r1" id="z" class="pol">
+            <br>
+            <br>
+            <label for="">Datum polaska</label>
+            <input type="date" id="datumPolaska"><br>
+            <label for="">Datum odlaska</label>
+            <input type="date" id="datumOdlaska"><br>
+            <select name="" id="destinacija">
+                <option value="0">--Izaberite destinaciju--</option>
+                <option value="Krf">Krf</option>
+                <option value="Kusadasi">Kusadasi</option>
+                <option value="Hurgada">Hurgada</option>
+            </select>
+            <input type="number" min="1" placeholder="Broj osoba" id="brojOsoba"><br>
+           <div class="drez">
+            <button id="b1" class="button1">Rezervisi</button>
+           </div>
+        </form>
+    </div>
+
+
+
+        <div class="futer">
+            <p>Travel Tours</p>
+            <p>Knez Mihailova 7</p>
+            <p>tel. +381 611 185 212</p>
+            <p>traveltours@gmail.com</p>
+        </div>
+
+    
+</body>
+</html>
