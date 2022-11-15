@@ -1,8 +1,8 @@
 @import url(nav.css);
 :root {
-    --tamnoPlava: #1d527c;  
+    --tamnoPlava: #1f73ab;  
     --svetloPlava: #459ad3; 
-    --orange: #fd7f45;
+    --orange: #d45c5b;
     --svetloSiva: lightgray;
     --bela: #fff;
     --transition: .3s ease;
@@ -11,20 +11,23 @@
     padding: 15px 30px;
     border: 1px solid var(--tamnoPlava);
     background: var(--svetloPlava);
+    border-radius: 16px;
     font-size: 1rem;
-    color: var(--orange);
+    font-weight: 700;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin-top: 10px;
     margin-left: 15px;
     margin-bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     position: relative;
+    transition: var(--transition);
 }
 .button1:hover{
     cursor: pointer;
-    background: var(--tamnoSiva);
-    color: rgb(8, 6, 0);
+    background: var(--orange);
     transition: var(--transition);
 }
 
@@ -32,17 +35,20 @@
     display: flex;
     padding: 30px;
     flex-wrap: wrap;
-    background-color: rgb(115, 246, 255);
+    background-color: var(--tamnoPlava);
     
 }
 h2{
-    background-color: rgb(245, 255, 106);
+    background-color: var(--orange);
     text-align: center;
+    color: white;
+    padding: 10px 0;
+    text-transform: uppercase;
 }
 
 .ddiv1{
     padding: 20px;
-    background-color: rgb(115, 246, 255);
+    background-color: var(--tamnoPlava);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,6 +61,8 @@ h2{
 .p1{
     margin-left: 15px;
     font-size: 18px;
+    color: white;
+    font-weight: 700;
 }
 .slika1{
     width: 800px;

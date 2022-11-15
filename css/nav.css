@@ -10,14 +10,18 @@
 }
 .nav li{
     display: inline-flex;
+    justify-content: space-around;
 }
 .nav li a{
+    font-size: large;
     color: white;
+    text-decoration: none;
     text-transform: uppercase;
-    padding: 0 30px;
+    font-weight: bold;
+    padding: 6px 30px;
 }
 nav {
-    background:linear-gradient(to left,rgb(255, 169, 8),rgb(3, 142, 255)) ;
+    background:linear-gradient(to left,#a45bd4,#1f73ab) ;
     display: flex;
     justify-content: center;
     align-items: center;

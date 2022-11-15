@@ -1,13 +1,13 @@
 @import url(nav.css);
 :root {
-    --tamnoPlava: #1d527c;  
+    --tamnoPlava: #1f73ab;  
     --svetloPlava: #459ad3; 
-    --orange: #fd7f45;
+    --orange: #d45c5b;
     --svetloSiva: lightgray;
     --bela: #fff;
 }
 body{
-    background-color: aquamarine;
+    background-color: var(--svetloPlava);
 }
 input[type=text],input[type=date],input[type=number],input[type=email]{
     padding: 12px; 
@@ -28,10 +28,13 @@ label{
     padding: 15px 30px;
     border: 1px solid var(--tamnoPlava);
     background: var(--orange);
-    font-size: 1rem;
-    color: black;
+    font-size: 1.28rem;
+    color: white;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
+    border-radius: 5px;
+    transition: 0.3s;
 }
 .button1:hover{
     cursor: pointer;
@@ -45,16 +48,25 @@ label{
     align-items: center;
 }
 h2{
-    background-color: rgb(16, 163, 221);
     text-align: center;
-    color: var(--orange);
+    color: white;
+    background-color: #d45c5b;
+    padding: 6px 0;
+    font-size: 24pt;
 }
 form{
-    background-color: rgb(16, 163, 221);
+    padding: 2vh;
+    margin-top: 4vh;
+    border-radius: 12px;
+    background-color: var(--tamnoPlava);
     display: inline-block;
     align-items: center;
     justify-content: center;
     left: 50%;
     transform: translateX(-50%);
     position: relative;
+}
+
+label{
+    color: white;
 }

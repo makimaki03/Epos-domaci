@@ -1,9 +1,9 @@
 @import url(nav.css);
 
 :root {
-    --tamnoPlava: #1d527c;  
+    --tamnoPlava: #1f73ab;  
     --svetloPlava: #459ad3; 
-    --orange: #fd7f45;
+    --orange: #d45c5b;
     --svetloSiva: lightgray;
     --bela: #fff;
     --transition: .3s ease;
